@@ -26,6 +26,15 @@
 	};
 };
 
+
+&usb {
+	status = "okay";
+};
+
+&usb_phy {
+	status = "okay";
+};
+
 &spi {
 	status = "okay";
 
